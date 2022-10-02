@@ -127,5 +127,35 @@ int main(){
     else{
         printf("The triangle is invalid");
     }*/
+    //Q18
+    /*int month;
+    scanf("%d",&month);
+    switch(month){
+        case 1:printf("Days = %d",31);
+                break;
+        case 2:printf("Days = %d",28);
+                break;
+        case 3:printf("Days = %d",31);
+        break;
+        case 4:printf("Days = %d",30);
+        break;
+        case 5:printf("Days = %d",31);
+        break;
+        case 6:printf("Days = %d",30);
+        break;
+        case 7:printf("Days = %d",31);
+        break;
+        case 8:printf("Days = %d",31);
+        break;
+        case 9:printf("Days = %d",30);
+        break;
+        case 10:printf("Days = %d",31);
+        break;
+        case 11:printf("Days = %d",30);
+        break;
+        case 12:printf("Days = %d",31);
+        break;
+        default:printf("Invalid month number");
+    }*/
     return 0;
 }
