@@ -1,0 +1,210 @@
+//Question 1
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n, sum = 0;
+//     cout << "Enter a positive integer N: ";
+//     cin >> n;
+
+//     for (int i = 1; i <= n; i++) {
+//         sum += i;
+//     }
+
+//     cout << "The sum of the first " << n << " natural numbers is: " << sum << endl;
+//     return 0;
+// }
+
+//Question 2
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n, sum = 0;
+//     cout << "Enter a positive integer N: ";
+//     cin >> n;
+
+//     for (int i = 1; i <= n; i++) {
+//         sum += 2 * i;
+//     }
+
+//     cout << "The sum of the first " << n << " even natural numbers is: " << sum << endl;
+//     return 0;
+// }
+
+//Question 3
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n, sum = 0;
+//     cout << "Enter a positive integer N: ";
+//     cin >> n;
+
+//     for (int i = 0; i < n; i++) {
+//         sum += 2 * i + 1;
+//     }
+
+//     cout << "The sum of the first " << n << " odd natural numbers is: " << sum << endl;
+//     return 0;
+// }
+
+//Q4
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n, sum = 0;
+//     cout << "Enter a positive integer N: ";
+//     cin >> n;
+
+//     for (int i = 1; i <= n; i++) {
+//         sum += i * i;
+//     }
+
+//     cout << "The sum of the squares of the first " << n << " natural numbers is: " << sum << endl;
+//     return 0;
+// }
+
+//Q5
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n, sum = 0;
+//     cout << "Enter a positive integer N: ";
+//     cin >> n;
+
+//     for (int i = 1; i <= n; i++) {
+//         sum += i * i * i;
+//     }
+
+//     cout << "The sum of the cubes of the first " << n << " natural numbers is: " << sum << endl;
+//     return 0;
+// }
+
+//Q6
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n;
+//     cout << "Enter a non-negative integer N: ";
+//     cin >> n;
+
+//     int factorial = 1;
+//     for (int i = 1; i <= n; i++) {
+//         factorial *= i;
+//     }
+
+//     cout << "The factorial of " << n << " is: " << factorial << endl;
+//     return 0;
+// }
+
+//Q7
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int number;
+//     cout << "Enter a positive integer: ";
+//     cin >> number;
+
+//     int digit_count = 0;
+//     int temp = number;
+//     while (temp > 0) {
+//         temp /= 10;
+//         digit_count++;
+//     }
+
+//     cout << "The number of digits in " << number << " is: " << digit_count << endl;
+//     return 0;
+// }
+
+//Question 8
+// #include <iostream>
+// using namespace std;
+
+// bool is_prime(int number) {
+//     if (number <= 1) {
+//         return false;
+//     }
+//     for (int i = 2; i * i <= number; i++) {
+//         if (number % i == 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// int main() {
+//     int number;
+//     cout << "Enter a positive integer: ";
+//     cin >> number;
+
+//     if (is_prime(number)) {
+//         cout << number << " is a prime number." << endl;
+//     } else {
+//         cout << number << " is not a prime number." << endl;
+//     }
+
+//     return 0;
+// }
+
+//Question 9
+// #include <iostream>
+// using namespace std;
+
+// int gcd(int a, int b) {
+//     while (b) {
+//         a = a % b;
+//         swap(a, b);
+//     }
+//     return a;
+// }
+
+// int lcm(int a, int b) {
+//     return (a * b) / gcd(a, b);
+// }
+
+// int main() {
+//     int num1, num2;
+//     cout << "Enter the first positive integer: ";
+//     cin >> num1;
+//     cout << "Enter the second positive integer: ";
+//     cin >> num2;
+
+//     int lcm_result = lcm(num1, num2);
+//     cout << "The LCM of " << num1 << " and " << num2 << " is: " << lcm_result << endl;
+
+//     return 0;
+// }
+
+//Q10
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int number;
+//     cout << "Enter a positive integer: ";
+//     cin >> number;
+
+//     int reversed_number = 0;
+//     int temp = number;
+//     while (temp > 0) {
+//         int digit = temp % 10;
+//         reversed_number = reversed_number * 10 + digit;
+//         temp /= 10;
+//     }
+
+//     cout << "The reversed number is: " << reversed_number << endl;
+//     return 0;
+// }
+
+
+
+
+
+
+
